@@ -21,7 +21,8 @@ urlpatterns = [
     path('api/v1/', include(
         [
             path('', include('catalog.urls')),
-            path('', include('achievement.urls'))
+            path('', include('achievement.urls')),
+            path('', include('rating.urls')),
         ]
     )),
 ]
