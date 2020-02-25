@@ -11,6 +11,8 @@ djangorestframework = "*"
 markdown = "*"
 pillow = "*"
 django-cors-headers = "*"
+django-heroku = "*"
+
 
 [requires]
 python_version = "3.7"
